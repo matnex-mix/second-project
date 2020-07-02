@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+    background-size: auto;
+    }
+main{
+    
+}
+h3{
+    text-align: left;
+    color: darkolivegreen;
+    font-family: cursive;
+    }
+nav{
+    background-image:url(laptop.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: centre;
+    display: flex;
+    justify-content:space-evenly;
+    padding-left: 0;
+    padding-right: 0;
+    line-height: 50px;
+    width:100%;
+    }
+nav ul li a{
+    text-decoration: none;
+    align-content: space-around
+   
+    display: block;
+    padding: 0 18px;
+    font-size: 15px;
+    margin: 1px;
+    padding-left: 1px;
+   
+    }
+nav ul li{
+    list-style-type: none;
+    display: flex;
+    align-content: space-around
+    
+    float: left;
+    text-align: center;
+    }
+nav ul{
+    display: flex;
+    color: : white;
+}
+#home :hover{
+    background: pink;
+    color:aqua;
+}
+img{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width:10px;
+    padding-top: 20px;
+}
+h2{
+    text-align: center;
+    font-family: New Times Roman;
+     
+    text-transform: uppercase;
+}
+.box{
+    width: 300px;
+    padding: 20px;
+    background:cornsilk;
+    text-align: center;
+    top:55%;
+    left:50%;
+    opacity:0.5;
+    border-radius: 20px;
+    margin:10px;
+    margin-left: 2px;
+    box-shadow: 1px 1px #173459;
+}
+.box input[type="text"], .box input[type="password"]{
+    border: 10px;
+   display: inline-block;
+    margin: 15px auto;
+    text-align: center;
+    border: 2px solid;
+    padding: 18px 10px;
+    width:200px;
+    border-radius: 28px;
+}
+.box input[type="submit"]{
+    border:2px solid;
+    padding: 5px 40px;
+    outline: none;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor:pointer;
+    color:navy;
+}
+div{
+  background-color: black; 
+    margin-top:10px;
+    
+}
+div p{
+    color:white;
+    padding-left: 5px;
+    margin:2px;
+}
+div .container {
+    color:white;
+} 
+.container img{
+    width:270px;
+    display: block;
+    padding-top: 2px;
+    padding-left: 0px;
+    padding-right: 1px;
+}
+
+#faasam{
+    color:navy;
+    padding-bottom: 15px;
+}
+div .below{
+    width:100px;
+}
+nav ul li a:hover{
+    background-color:crimson;
+    color:chartreuse;
+    font-size: 20px;
+}
+ul .active{
+    color:crimson;
+    background:cadetblue;
+    border: 1px solid #ddd;
+}
+h6{
+    margin-top: 5px;
+}
+.top > img{
+    height: 40px;
+    padding-left: 5px;
+    width:30px;
+    padding-top: 5px;
+    padding-right: -10px;
+    
+    
+}
+.top{
+    height: 50px;
+    width:40px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    position: right;
+    margin-right: 5px;
+    margin-top: -15px;
+}
+
+
+
+    

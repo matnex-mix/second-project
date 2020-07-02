@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: cadetblue;
+}
+p{
+    text-align: center;
+    color:blue;
+    }
+ol li{
+    list-style-type: disc;
+    }
+img{
+    padding-left: 20px;
+    }

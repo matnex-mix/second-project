@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    }
+body {
+    background-image: url("Contact us.jpg");
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-size: contain;
+    background-color: azure;
+    
+    }
+div{
+    margin-top: 120px;
+    }
+div p{
+    padding-left: 5px;
+}
+img{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width:10px;
+    }
+.get{
+    padding-left: 5px;
+    color:blue;
+    }
